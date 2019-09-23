@@ -51,5 +51,11 @@ Indexing PaperAuthorAffiliations.
 ```
 - Only institutions with id_
 ```
-    python main.py --onlyInstitutions 75951250 4577782 39343248 7877124
+    python main.py --onlyInstitutions 75951250 4577782 39343248 
+```
+
+### Making a Query on Elasticsearch
+
+```
+http://localhost:9200/mag/_search?pretty=true&q=*:*
 ```
