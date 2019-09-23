@@ -1,6 +1,6 @@
 
 ## Using Elasticsearch on Microsoft Academic Graph MAG
-Exploring more than 161.4 GiB of publications from Microsoft Academic Graph (MAG) using Elasticsearch!
+Exploring more than 160 GiB of publications from Microsoft Academic Graph (MAG) using Elasticsearch!
 
 
 ## 1. Download Microsoft Academic Graph
@@ -56,7 +56,7 @@ Indexing PaperAuthorAffiliations.
     python main.py --onlyInstitutions 75951250 4577782 39343248 
 ```
 
-### Making a Query on Elasticsearch
+### Making a Query in Elasticsearch
 
 ```
 http://localhost:9200/mag/_search?pretty=true&q=*:*
