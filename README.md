@@ -11,11 +11,9 @@ https://zenodo.org/record/2628216
 ## 2. Installing Elasticsearch with Docker
 ```
 docker pull docker.elastic.co/elasticsearch/elasticsearch:7.3.2
+docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.3.
 ```
 
-```
-docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.3.2
-```
 For more information: https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html
 
 ## 3. Installing mag2elasticsearch
