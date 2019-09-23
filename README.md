@@ -37,6 +37,7 @@ For more information: https://www.elastic.co/guide/en/elasticsearch/reference/cu
 Expected package dependencies are listed in the "requirements.txt" file for PIP, you need to run the following command to get dependencies:
 ```
 git clone https://github.com/vwoloszyn/mag2elasticsearch/
+cd mag2elasticsearch
 pip install -r requirements.txt
 ```
 
