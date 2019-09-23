@@ -1,12 +1,26 @@
 
 ## Using Elasticsearch on Microsoft Academic Graph MAG
-Exploring Microsoft Academic Graph (MAG) in the Elasticsearch!
+Exploring more than 161.4 GiB of publications from Microsoft Academic Graph (MAG) using Elasticsearch!
 
 
 ## 1. Download Microsoft Academic Graph
 
 https://docs.microsoft.com/en-us/academic-services/graph/reference-data-schema
 https://zenodo.org/record/2628216
+
+4564007 Affiliations.txt
+ 16528778635 Authors.txt
+     2224843 ConferenceInstances.txt
+      428103 ConferenceSeries.txt
+    55188690 FieldsOfStudy.txt
+     5689662 Journals.txt
+ 40976541540 PaperAuthorAffiliations.txt
+ 32446006785 PaperReferences.txt
+     7763592 PaperResources.txt
+ 60213784152 Papers.txt
+ 23096534376 PaperUrls.txt
+ ----------------------------------------
+173337504385 (~161.4) GiB
 
 
 ## 2. Install Elasticsearch with Docker
