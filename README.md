@@ -8,6 +8,7 @@ Exploring more than 161.4 GiB of publications from Microsoft Academic Graph (MAG
 https://docs.microsoft.com/en-us/academic-services/graph/reference-data-schema
 https://zenodo.org/record/2628216
 
+```
 4564007 Affiliations.txt
  16528778635 Authors.txt
      2224843 ConferenceInstances.txt
@@ -21,7 +22,7 @@ https://zenodo.org/record/2628216
  23096534376 PaperUrls.txt
  ----------------------------------------
 173337504385 (~161.4) GiB
-
+```
 
 ## 2. Install Elasticsearch with Docker
 ```
