@@ -6,6 +6,7 @@ Exploring more than 161.4 GiB of publications from Microsoft Academic Graph (MAG
 ## 1. Download Microsoft Academic Graph
 
 https://docs.microsoft.com/en-us/academic-services/graph/reference-data-schema
+
 https://zenodo.org/record/2628216
 
 ```
