@@ -14,7 +14,7 @@ def load_config():
 
 if __name__ == "__main__":
     pparser = argparse.ArgumentParser()
-    pparser.add_argument('--authors', required=False, help='output path', action='store_true')
+    pparser.add_argument('-p','--PaperAuthorAffiliations', required=False, help='output path', action='store_true')
     pparser.add_argument('--limit', required=False, default=0, type=int)
     pparser.add_argument('-f','--onlyInstitutions', nargs='+', help='<Required> Set flag', required=False, default=None)
 
@@ -22,6 +22,6 @@ if __name__ == "__main__":
     print (args)
     config= load_config()
 
-    if args.authors:
+    if args.PaperAuthorAffiliations:
         authors2elastic(config,args)
 
