@@ -5,7 +5,8 @@
         "index":"mag"
     },
     "mag":{
-        "PaperAuthorAffiliations":"../kg/PaperAuthorAffiliations.txt"
+        "PaperAuthorAffiliations":"../kg/PaperAuthorAffiliations.txt",
+        "Papers":"../kg/Papers.txt"
     },
     "import":{
     }
