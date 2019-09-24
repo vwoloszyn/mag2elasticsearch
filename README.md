@@ -43,9 +43,9 @@ pip install -r requirements.txt
 ```
 
 ### Command-line usage
-Indexing talbes Papers and PaperAuthorAffiliations.
+Indexing talbe Papers.
 ```
-    python main.py -t Papers PaperAuthorAffiliations
+    python main.py -t Papers
 ```
 - read only N records
 ```
