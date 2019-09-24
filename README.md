@@ -43,13 +43,13 @@ pip install -r requirements.txt
 ```
 
 ### Command-line usage
-Indexing PaperAuthorAffiliations.
+Indexing talbes Papers and PaperAuthorAffiliations.
 ```
-    python main.py --PaperAuthorAffiliations
+    python main.py -t Papers PaperAuthorAffiliations
 ```
 - read only N records
 ```
-    python main.py --PaperAuthorAffiliations --limit 6000000
+    python main.py --limit 6000000
 ```
 - Only institutions with id_
 ```
