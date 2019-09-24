@@ -49,7 +49,7 @@ Indexing PaperAuthorAffiliations.
 ```
 - read only N records
 ```
-    python main.py --authors --limit 6000000
+    python main.py --PaperAuthorAffiliations --limit 6000000
 ```
 - Only institutions with id_
 ```
